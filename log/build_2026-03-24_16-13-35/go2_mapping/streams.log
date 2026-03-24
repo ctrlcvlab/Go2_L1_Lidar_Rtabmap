@@ -1,0 +1,31 @@
+[0.382s] Invoking command in '/home/cvr/Desktop/sj/Go2_lidar_rtab/src/go2_mapping': PYTHONPATH=/home/cvr/Desktop/sj/Go2_lidar_rtab/build/go2_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cvr/Desktop/sj/Go2_lidar_rtab/install/go2_mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_mapping build --build-base /home/cvr/Desktop/sj/Go2_lidar_rtab/build/go2_mapping/build install --record /home/cvr/Desktop/sj/Go2_lidar_rtab/build/go2_mapping/install.log --single-version-externally-managed install_data
+[0.458s] /home/cvr/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.458s]   warnings.warn(msg)
+[0.506s] running egg_info
+[0.513s] writing ../../build/go2_mapping/go2_mapping.egg-info/PKG-INFO
+[0.514s] writing dependency_links to ../../build/go2_mapping/go2_mapping.egg-info/dependency_links.txt
+[0.514s] writing entry points to ../../build/go2_mapping/go2_mapping.egg-info/entry_points.txt
+[0.514s] writing requirements to ../../build/go2_mapping/go2_mapping.egg-info/requires.txt
+[0.514s] writing top-level names to ../../build/go2_mapping/go2_mapping.egg-info/top_level.txt
+[0.531s] reading manifest file '../../build/go2_mapping/go2_mapping.egg-info/SOURCES.txt'
+[0.531s] writing manifest file '../../build/go2_mapping/go2_mapping.egg-info/SOURCES.txt'
+[0.531s] running build
+[0.531s] running build_py
+[0.532s] copying go2_mapping/__init__.py -> /home/cvr/Desktop/sj/Go2_lidar_rtab/build/go2_mapping/build/lib/go2_mapping
+[0.532s] copying go2_mapping/odom_tf_broadcaster.py -> /home/cvr/Desktop/sj/Go2_lidar_rtab/build/go2_mapping/build/lib/go2_mapping
+[0.532s] running install
+[0.534s] running install_lib
+[0.542s] copying /home/cvr/Desktop/sj/Go2_lidar_rtab/build/go2_mapping/build/lib/go2_mapping/odom_tf_broadcaster.py -> /home/cvr/Desktop/sj/Go2_lidar_rtab/install/go2_mapping/lib/python3.10/site-packages/go2_mapping
+[0.542s] byte-compiling /home/cvr/Desktop/sj/Go2_lidar_rtab/install/go2_mapping/lib/python3.10/site-packages/go2_mapping/odom_tf_broadcaster.py to odom_tf_broadcaster.cpython-310.pyc
+[0.543s] running install_data
+[0.543s] copying resource/go2_mapping -> /home/cvr/Desktop/sj/Go2_lidar_rtab/install/go2_mapping/share/ament_index/resource_index/packages
+[0.543s] copying package.xml -> /home/cvr/Desktop/sj/Go2_lidar_rtab/install/go2_mapping/share/go2_mapping
+[0.543s] copying launch/go2_rtabmap.launch.py -> /home/cvr/Desktop/sj/Go2_lidar_rtab/install/go2_mapping/share/go2_mapping/launch
+[0.543s] copying launch/tf_setup.launch.py -> /home/cvr/Desktop/sj/Go2_lidar_rtab/install/go2_mapping/share/go2_mapping/launch
+[0.543s] running install_egg_info
+[0.551s] removing '/home/cvr/Desktop/sj/Go2_lidar_rtab/install/go2_mapping/lib/python3.10/site-packages/go2_mapping-0.0.0-py3.10.egg-info' (and everything under it)
+[0.552s] Copying ../../build/go2_mapping/go2_mapping.egg-info to /home/cvr/Desktop/sj/Go2_lidar_rtab/install/go2_mapping/lib/python3.10/site-packages/go2_mapping-0.0.0-py3.10.egg-info
+[0.553s] running install_scripts
+[0.618s] Installing odom_tf_broadcaster script to /home/cvr/Desktop/sj/Go2_lidar_rtab/install/go2_mapping/lib/go2_mapping
+[0.618s] writing list of installed files to '/home/cvr/Desktop/sj/Go2_lidar_rtab/build/go2_mapping/install.log'
+[0.631s] Invoked command in '/home/cvr/Desktop/sj/Go2_lidar_rtab/src/go2_mapping' returned '0': PYTHONPATH=/home/cvr/Desktop/sj/Go2_lidar_rtab/build/go2_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cvr/Desktop/sj/Go2_lidar_rtab/install/go2_mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_mapping build --build-base /home/cvr/Desktop/sj/Go2_lidar_rtab/build/go2_mapping/build install --record /home/cvr/Desktop/sj/Go2_lidar_rtab/build/go2_mapping/install.log --single-version-externally-managed install_data

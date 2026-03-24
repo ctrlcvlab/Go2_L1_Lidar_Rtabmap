@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/go2_mapping/go2_mapping.egg-info/PKG-INFO
+../../build/go2_mapping/go2_mapping.egg-info/SOURCES.txt
+../../build/go2_mapping/go2_mapping.egg-info/dependency_links.txt
+../../build/go2_mapping/go2_mapping.egg-info/entry_points.txt
+../../build/go2_mapping/go2_mapping.egg-info/requires.txt
+../../build/go2_mapping/go2_mapping.egg-info/top_level.txt
+../../build/go2_mapping/go2_mapping.egg-info/zip-safe
+go2_mapping/__init__.py
+go2_mapping/odom_tf_broadcaster.py
+launch/go2_rtabmap.launch.py
+launch/tf_setup.launch.py
+resource/go2_mapping

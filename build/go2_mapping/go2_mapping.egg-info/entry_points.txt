@@ -1,0 +1,2 @@
+[console_scripts]
+odom_tf_broadcaster = go2_mapping.odom_tf_broadcaster:main
