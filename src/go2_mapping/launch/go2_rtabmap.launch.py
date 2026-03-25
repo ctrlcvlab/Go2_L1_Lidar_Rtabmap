@@ -1,9 +1,29 @@
 import os
+from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
+from launch.actions import DeclareLaunchArgument
+from launch.conditions import IfCondition
+from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
 
 def generate_launch_description():
+    package_share = get_package_share_directory('go2_mapping')
+    rviz_config = os.path.join(package_share, 'rviz', 'go2_mapping.rviz')
+    use_rviz = LaunchConfiguration('use_rviz')
+    use_rtabmap_viz = LaunchConfiguration('use_rtabmap_viz')
+
     return LaunchDescription([
+        DeclareLaunchArgument(
+            'use_rviz',
+            default_value='true',
+            description='Launch RViz with the project-specific config.'
+        ),
+        DeclareLaunchArgument(
+            'use_rtabmap_viz',
+            default_value='false',
+            description='Launch RTAB-Map standalone visualization.'
+        ),
+
         # RTAB-Map 코어 맵핑 노드 (SLAM)
         Node(
             package='rtabmap_slam', 
@@ -50,12 +70,23 @@ def generate_launch_description():
             ]
         ),
         
-        # RTAB-Map 전용 3D 뷰어 노드 (어떻게 꿰매지는지 3D로 보기 위함)
+        # 프로젝트 전용 RViz 설정으로 바로 시각화
+        Node(
+            package='rviz2',
+            executable='rviz2',
+            name='rviz',
+            output='screen',
+            arguments=['-d', rviz_config],
+            condition=IfCondition(use_rviz)
+        ),
+
+        # RTAB-Map 전용 3D 뷰어 노드 (필요할 때만 별도 실행)
         Node(
             package='rtabmap_viz', 
             executable='rtabmap_viz', 
             name='rtabmap_viz',
             output='screen',
+            condition=IfCondition(use_rtabmap_viz),
             parameters=[{
                 'frame_id': 'base_link',
                 'odom_frame_id': 'odom',

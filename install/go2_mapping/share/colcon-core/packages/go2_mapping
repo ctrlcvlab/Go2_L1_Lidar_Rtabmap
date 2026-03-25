@@ -1,1 +1,1 @@
-geometry_msgs:nav_msgs:rclpy:rtabmap_ros:sensor_msgs:tf2_ros
+ament_index_python:geometry_msgs:launch:launch_ros:nav_msgs:rclpy:rtabmap_ros:rviz2:sensor_msgs:tf2_ros

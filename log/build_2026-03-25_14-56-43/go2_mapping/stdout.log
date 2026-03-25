@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/go2_mapping/go2_mapping.egg-info/PKG-INFO
+writing dependency_links to ../../build/go2_mapping/go2_mapping.egg-info/dependency_links.txt
+writing entry points to ../../build/go2_mapping/go2_mapping.egg-info/entry_points.txt
+writing requirements to ../../build/go2_mapping/go2_mapping.egg-info/requires.txt
+writing top-level names to ../../build/go2_mapping/go2_mapping.egg-info/top_level.txt
+reading manifest file '../../build/go2_mapping/go2_mapping.egg-info/SOURCES.txt'
+writing manifest file '../../build/go2_mapping/go2_mapping.egg-info/SOURCES.txt'
+running build
+running build_py
+copying go2_mapping/__init__.py -> /home/cvr/Desktop/sj/Go2_lidar_rtab/build/go2_mapping/build/lib/go2_mapping
+copying go2_mapping/odom_tf_broadcaster.py -> /home/cvr/Desktop/sj/Go2_lidar_rtab/build/go2_mapping/build/lib/go2_mapping
+running install
+running install_lib
+running install_data
+copying resource/go2_mapping -> /home/cvr/Desktop/sj/Go2_lidar_rtab/install/go2_mapping/share/ament_index/resource_index/packages
+copying package.xml -> /home/cvr/Desktop/sj/Go2_lidar_rtab/install/go2_mapping/share/go2_mapping
+copying launch/go2_rtabmap.launch.py -> /home/cvr/Desktop/sj/Go2_lidar_rtab/install/go2_mapping/share/go2_mapping/launch
+copying launch/tf_setup.launch.py -> /home/cvr/Desktop/sj/Go2_lidar_rtab/install/go2_mapping/share/go2_mapping/launch
+creating /home/cvr/Desktop/sj/Go2_lidar_rtab/install/go2_mapping/share/go2_mapping/rviz
+copying rviz/go2_mapping.rviz -> /home/cvr/Desktop/sj/Go2_lidar_rtab/install/go2_mapping/share/go2_mapping/rviz
+running install_egg_info
+removing '/home/cvr/Desktop/sj/Go2_lidar_rtab/install/go2_mapping/lib/python3.10/site-packages/go2_mapping-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/go2_mapping/go2_mapping.egg-info to /home/cvr/Desktop/sj/Go2_lidar_rtab/install/go2_mapping/lib/python3.10/site-packages/go2_mapping-0.0.0-py3.10.egg-info
+running install_scripts
+Installing odom_tf_broadcaster script to /home/cvr/Desktop/sj/Go2_lidar_rtab/install/go2_mapping/lib/go2_mapping
+writing list of installed files to '/home/cvr/Desktop/sj/Go2_lidar_rtab/build/go2_mapping/install.log'

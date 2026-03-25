@@ -13,3 +13,4 @@ go2_mapping/odom_tf_broadcaster.py
 launch/go2_rtabmap.launch.py
 launch/tf_setup.launch.py
 resource/go2_mapping
+rviz/go2_mapping.rviz
